@@ -24,3 +24,9 @@ There is almost no difference in configuration between flight and sim modes.
 1. SW testing
 2. Algorithm tuning
 3. AI training base
+
+## Implementation
+1. Start with Serial port emulation using e.g. socat
+2. Use TCP + UDP for communication
+3. Switch from TCP to CCSDS over UDP
+4. Implement other protocols
