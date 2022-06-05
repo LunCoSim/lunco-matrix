@@ -17,7 +17,9 @@ There is almost no difference in configuration between flight and sim modes.
 6. Matrix precisely imitates data from sensors utilizing it's internal model. E.g. LunCo sends updates with Accelerometer data at a rate 10 Hz, FlatSat utilizes Accelerometer at a rate of 100Hz. In that case Matrix will provide FlatSat with data at 100Hz rate based on LunCo sim and model of Accelerometer data
 
 ## Applications
-0. **Cooperative missions**. Several parties in their MCC run their flatsat and train together in virtual environment.
+0. **Cooperative missions**. 
+
+    1. Several parties in their MCC run their flatsat and train together in virtual environment.
 
 1. SW testing
 2. Algorithm tuning
